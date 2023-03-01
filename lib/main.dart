@@ -1,3 +1,4 @@
+import 'package:animation_proj/animation_switch.dart';
 import 'package:animation_proj/container_animation.dart';
 import 'package:animation_proj/opacity_animation.dart';
 import 'package:animation_proj/position_animation.dart';
@@ -21,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TextAnimation(),
+      home: AnimationSwitch(),
     );
   }
 }
